@@ -1,0 +1,7 @@
+/* Linear Gradient Background */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-image: linear-gradient(to right, #9ab9bd, #ffffff); */
+    margin: 0%;
+    padding: 0%;
+}
