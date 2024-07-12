@@ -6,7 +6,7 @@ import Services from './components/Services'
 import Team from './components/Team'
 import Footer from './components/Footer'
 import Blogs from './components/Blogs'
-
+import ContactUs from './components/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +19,7 @@ function App() {
         <Services></Services>
         <Team></Team>
         <Blogs></Blogs>
+        <ContactUs></ContactUs>
         <Footer></Footer>
       </div>
     </>
