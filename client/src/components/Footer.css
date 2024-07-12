@@ -76,3 +76,38 @@
     text-align: center;
   }
   
+  /* Media Queries for devices with max-width of 768px */
+@media (max-width: 768px) {
+  .footer {
+      padding: 1rem 0.5rem; /* Reduce padding for smaller screens */
+  }
+
+  .footer-content {
+      flex-direction: column; /* Stack the sections vertically */
+      align-items: center; /* Center-align the content for better readability */
+  }
+
+  .footer-left, .footer-middle, .footer-right {
+      flex: none; /* Remove flex sizing */
+      width: 90%; /* Increase width to use more space */
+      margin: 0.5rem 0; /* Reduce margin between sections */
+      text-align: center; /* Center text for consistency */
+  }
+
+  .footer-nav {
+      text-align: center; /* Ensure navigation links are centered */
+  }
+
+  .social-icons {
+      justify-content: space-around; /* Distribute social icons evenly */
+  }
+
+  .address {
+      text-align: center; /* Center-align the address */
+  }
+
+  .social-icons a img {
+      width: 25px; /* Slightly reduce the size of the social icons */
+      height: 25px;
+  }
+}

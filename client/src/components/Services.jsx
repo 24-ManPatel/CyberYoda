@@ -40,7 +40,7 @@ const Services = () => {
   const lastServices = services.slice(-2);
 
   return (
-    <div className="py-16 bg-gray-50">
+    <div id="service" className="py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold">Our Services</h2>

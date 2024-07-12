@@ -3,16 +3,16 @@ import './Footer.css'; // Import the CSS file
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer id="contact" className="footer">
       <div className="footer-content">
         <div className="footer-left">
           <h2 className="company-name">Cyber Yoda</h2>
           <ul className="footer-nav">
             <li><a href="#home">Home</a></li>
             <li><a href="#team">Team</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#blog">Blogs</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#footer">Contact</a></li>
           </ul>
         </div>
         <div className="footer-middle">
@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
         <div className="footer-right">
           <div className="social-icons">
-            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/company/synconic/" target="_blank" rel="noopener noreferrer">
               <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" />
             </a>
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">

@@ -5,6 +5,8 @@ import Navbar from './components/Navbar'
 import Services from './components/Services'
 import Team from './components/Team'
 import Footer from './components/Footer'
+import Blogs from './components/Blogs'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +18,7 @@ function App() {
         <CyberYoda />
         <Services></Services>
         <Team></Team>
+        <Blogs></Blogs>
         <Footer></Footer>
       </div>
     </>
