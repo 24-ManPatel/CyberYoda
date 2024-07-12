@@ -1,0 +1,20 @@
+.service-icon {
+    width: 64px; /* Adjust the width as needed */
+    height: 64px; /* Adjust the height as needed */
+    margin-bottom: 1rem; /* Adjust the margin as needed */
+  }
+  
+  @media (min-width: 640px) {
+    .service-icon {
+      width: 80px; /* Adjust the width for larger screens */
+      height: 80px; /* Adjust the height for larger screens */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .service-icon {
+      width: 96px; /* Adjust the width for even larger screens */
+      height: 96px; /* Adjust the height for even larger screens */
+    }
+  }
+  

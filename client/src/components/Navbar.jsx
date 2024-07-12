@@ -19,9 +19,6 @@ const Navbar = () => {
                 <a href="/services" className="text-black font-tomorrow text-lg pr-6">Services</a>
                 <a href="/about" className="text-black transition font-tomorrow text-lg pr-6">About</a>
                 <a href="/contact" className="text-black font-tomorrow text-lg pr-6">Contact</a>
-                <button className="bg-blue-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
-                    Welcome!!
-                </button>
             </div>
             <div className="md:hidden flex items-center">
                 <button onClick={toggleMenu} className="text-black focus:outline-none">

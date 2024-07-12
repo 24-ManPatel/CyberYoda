@@ -26,7 +26,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   width: 400px;
-  margin: 5%;
+  margin: 2%;
   position: relative;
 }
 
@@ -38,11 +38,19 @@
 }
 
 .card-header.member1 {
-  background-image: url('/assets/background1.png'); /* Background image for member1 */
+  background-image: url('/teambg.png'); /* Background image for member1 */
 }
 
 .card-header.member2 {
-  background-image: url('/assets/background2.png'); /* Background image for member2 */
+  background-image: url('/teambg.png'); /* Background image for member2 */
+}
+
+.card-header.member3 {
+  background-image: url('/teambg.png'); /* Background image for member1 */
+}
+
+.card-header.member4 {
+  background-image: url('/teambg.png'); /* Background image for member2 */
 }
 
 .member-image {
@@ -59,19 +67,19 @@
 }
 
 .member-image.member1 {
-  background-image: url('/client/src/assets/Narayanan_Ayipuzha.png'); /* Member1 image */
+  background-image: url('/Narayanan_Ayipuzha.png'); /* Member1 image */
 }
 
 .member-image.member2 {
-  background-image: url('/assets/member2.png'); /* Member2 image */
+  background-image: url('/Akhilesh_Pathak.png'); /* Member2 image */
 }
 
 .member-image.member3 {
-  background-image: url('/client/src/assets/member3.png'); /* Member1 image */
+  background-image: url('/Ronak_Patel.png'); /* Member3 image */
 }
 
 .member-image.member4 {
-  background-image: url('/assets/member4.png'); /* Member2 image */
+  background-image: url('/Ankit_Kanodia.png'); /* Member4 image */
 }
 
 .card-body {
