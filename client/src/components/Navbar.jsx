@@ -21,7 +21,7 @@ const Navbar = () => {
     return (
         <nav className="bg-white text-black flex justify-between items-center p-2 pr-7 fixed w-full z-10 shadow-md">
             <div className="flex items-center">
-                <img src="\src\assets\lpng.png" alt="Cyber Yoda Logo" className="h-20 m-4" />
+                <img src="\lpng.png" alt="Cyber Yoda Logo" className="h-20 m-4" />
             </div>
             <div className="hidden md:flex items-center space-x-6">
                 <a onClick={() => handleScroll('home')} className="cursor-pointer text-black font-tomorrow text-lg pr-6">Home</a>
