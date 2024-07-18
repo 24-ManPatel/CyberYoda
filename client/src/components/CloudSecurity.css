@@ -1,0 +1,23 @@
+/* CloudSecurity.css */
+
+.cloud-security-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .cloud-security-container h1,
+  .cloud-security-container h2,
+  .cloud-security-container h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .cloud-security-container p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  

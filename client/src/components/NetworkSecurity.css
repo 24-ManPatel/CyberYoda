@@ -1,0 +1,23 @@
+/* NetworkSecurity.css */
+
+.network-security-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .network-security-container h1,
+  .network-security-container h2,
+  .network-security-container h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .network-security-container p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  

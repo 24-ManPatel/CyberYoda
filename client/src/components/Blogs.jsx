@@ -45,7 +45,7 @@ const Blogs = () => {
 
     return (
         <div id="blog" className="blogs-container">
-            <h2 className="title">Blogs</h2>
+            <h2 className="text-4xl font-bold text-black mb-10 mt-10">Blogs</h2>
             <hr className="w-40 h-0.5 mx-auto my-4 bg-gray-700 border-0 rounded" />
             <p className="subtitle">Explore our blogs for the latest insights and trends in cybersecurity.</p>
             <div className="blog-card">

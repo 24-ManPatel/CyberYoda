@@ -1,0 +1,29 @@
+/* SOC.css */
+
+.soc-container {
+    padding: 1rem;
+  }
+  
+  .back-btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .back-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Example responsive styles */
+  @media (max-width: 768px) {
+    .soc-container {
+      padding: 0.5rem;
+    }
+    .back-btn {
+      font-size: 0.875rem;
+    }
+  }
+  

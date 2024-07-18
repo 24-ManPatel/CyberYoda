@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Services.css'; // Import the CSS file
 
 const services = [
@@ -14,6 +15,7 @@ const services = [
 
 const Services = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
+  const navigate = useNavigate();
 
   const renderService = (service, index) => (
     <div
@@ -25,7 +27,12 @@ const Services = () => {
       {hoveredIndex === index ? (
         <div className="absolute inset-0 flex flex-col justify-center items-center bg-blue-500 text-white p-4 rounded-lg">
           <p className="mb-4 text-center text-sm">{service.description}</p>
-          <button className="bg-white text-blue-500 px-4 py-2 rounded-lg">Explore</button>
+          <button 
+            className="bg-white text-blue-500 px-4 py-2 rounded-lg"
+            onClick={() => navigate(`/service-detail/${service.name.replace(/\s+/g, '-').toLowerCase()}`)}
+          >
+            Explore
+          </button>
         </div>
       ) : (
         <>
@@ -35,9 +42,6 @@ const Services = () => {
       )}
     </div>
   );
-
-  const firstServices = services.slice(0, -2);
-  const lastServices = services.slice(-2);
 
   return (
     <div id="service" className="py-16 bg-gray-50">
@@ -50,17 +54,8 @@ const Services = () => {
           <p className="text-gray-600">We protect your digital assets.</p>
         </div>
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {firstServices.map((service, index) => renderService(service, index))}
+          {services.map((service, index) => renderService(service, index))}
         </div>
-        {lastServices.length === 2 && (
-          <div className="mt-6 flex justify-center gap-6">
-            {lastServices.map((service, index) => (
-              <div className="w-full sm:w-1/2 lg:w-1/3" key={service.name}>
-                {renderService(service, firstServices.length + index)}
-              </div>
-            ))}
-          </div>
-        )}
       </div>
     </div>
   );

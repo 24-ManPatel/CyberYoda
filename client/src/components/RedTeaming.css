@@ -1,0 +1,23 @@
+/* RedTeaming.css */
+
+.red-teaming-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .red-teaming-container h1,
+  .red-teaming-container h2,
+  .red-teaming-container h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .red-teaming-container p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  

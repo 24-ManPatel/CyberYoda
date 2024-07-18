@@ -25,8 +25,8 @@ const Navbar = () => {
             </div>
             <div className="hidden md:flex items-center space-x-6">
                 <a onClick={() => handleScroll('home')} className="cursor-pointer text-black font-tomorrow text-lg pr-6">Home</a>
-                <a onClick={() => handleScroll('team')} className="cursor-pointer text-black font-tomorrow text-lg pr-6">Team</a>
                 <a onClick={() => handleScroll('service')} className="cursor-pointer text-black font-tomorrow text-lg pr-6">Services</a>
+                <a onClick={() => handleScroll('team')} className="cursor-pointer text-black font-tomorrow text-lg pr-6">Team</a>
                 <a onClick={() => handleScroll('blog')} className="cursor-pointer text-black font-tomorrow text-lg pr-6">Blogs</a>
                 <a onClick={() => handleScroll('contact')} className="cursor-pointer text-black font-tomorrow text-lg pr-6">Contact</a>
             </div>
