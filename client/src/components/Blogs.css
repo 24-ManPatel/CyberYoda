@@ -1,5 +1,3 @@
-/* Blogs.css */
-
 .blogs-container {
   text-align: center;
   padding: 20px;
@@ -23,6 +21,12 @@
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .blog-image {
@@ -56,6 +60,7 @@
   background-color: #007bff;
   color: white;
   border: none;
+  margin-top: 15px;
   border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
@@ -67,6 +72,44 @@
 
 .nav-button {
   display: none; /* Hide navigation buttons by default */
+}
+
+@media (min-width: 769px) {
+  .blog-content {
+    flex-direction: row; /* Arrange content in a row for desktop view */
+  }
+
+  .blog-image {
+    max-width: 50%; /* Limit image width to 50% of container */
+    margin-right: 20px; /* Add margin to the right of the image */
+  }
+
+  .blog-text {
+    width: 50%; /* Limit text width to 50% of container */
+  }
+
+  .nav-button {
+    font-size: 1.5rem;
+    padding: 10px;
+    display: block; /* Display navigation buttons for desktop view */
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #333;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: background-color 0.3s ease;
+  }
+
+  .nav-button.left {
+    left: -40px; /* Position button outside the card on the left */
+  }
+
+  .nav-button.right {
+    right: -40px; /* Position button outside the card on the right */
+  }
 }
 
 @media (max-width: 768px) {
@@ -83,6 +126,7 @@
     height: auto; /* Allow description to expand based on content */
     max-height: none; /* Remove maximum height to allow full content display */
     overflow-y: auto; /* Enable scrolling if content exceeds height */
+    margin-bottom: 10px;
   }
 
   .read-more {

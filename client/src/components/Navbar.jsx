@@ -12,7 +12,7 @@ const Navbar = () => {
         const element = document.getElementById(id);
         if (element) {
             window.scrollTo({
-                top: element.offsetTop - 50, // Adjust if your navbar height is different
+                top: element.offsetTop - 80, // Adjust if your navbar height is different
                 behavior: 'smooth'
             });
         }
@@ -20,7 +20,7 @@ const Navbar = () => {
 
     return (
         <nav className="bg-white text-black flex justify-between items-center p-2 pr-7 fixed w-full z-10 shadow-md">
-            <div className="flex items-center">
+            <div className="flex items-center h-20">
                 <img src="\lpng.png" alt="Cyber Yoda Logo" className="h-20 m-4" />
             </div>
             <div className="hidden md:flex items-center space-x-6">
